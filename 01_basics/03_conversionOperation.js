@@ -37,7 +37,7 @@ console.log(valueInNumber4);
 console.log(valueInNumber5);
 
 // "33" ==> 33
-// "33ava" ==> NaN
+// "33ava" ==> (NaN not a number)
 // true ==> 1 ; false ==> 0
 
 let isLoggedIn = 1;
