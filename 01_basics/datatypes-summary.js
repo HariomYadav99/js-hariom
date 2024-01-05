@@ -59,3 +59,38 @@ console.log(typeof id);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+
+// ***************************************************
+
+// Memory--->
+
+// 1. Stack (Primitive) --> when you declare a variable,
+//                    then you have a copy of that variable 
+// 2. Heap(Non-primitive) -->when you define any object or anything 
+//                      in heap then you get a reference of original 
+//                       value then if you change that reference then
+//                      automatically change the value of original.
+
+let myYoutubename = "Hariomdotcom"
+
+let anotherName  = myYoutubename
+anotherName = "AlwaysStudy"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "Ahariom@google.com",
+    upi: "harry@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hariomyadav@gmaildotcom"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
